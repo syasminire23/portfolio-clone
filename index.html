@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./image/yasmin_portfolio.jpg" alt="Profile Picture">
+                <p>Hello! I'm Yasmin, currently diving deep into a software development bootcamp as I transition into a tech career. Fueled by my passion for programming and relentless pursuit of knowledge, I'm eager to forge my path in this dynamic field. Beyond coding, I revel in travel and fitness, drawing inspiration and balance to propel my journey towards becoming a skilled developer.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/syeda-sadia-yasmin-96b295285/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/syasminire23" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+      
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website Clone Project</h3>
+                <p>Right now, I'm working on a portfolio website using HTML and CSS. It's all about designing how the website looks and feels to users. I'm learning a lot about how to layout pages and make them look nice. It's like putting together puzzle pieces to make something cool on the internet!</p>
+                <p><a href="https://syasminire23.github.io/Portfolio-Clone-Project/" target="_blank">Click me to check my project</a></p>
+            </div>
+        </section>
+        
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <em>2024 Syeda Yasmin</em></p>
+    </footer>
+</body>
+</html>
